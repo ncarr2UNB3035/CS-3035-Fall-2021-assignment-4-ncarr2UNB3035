@@ -21,7 +21,6 @@ public class Controller {
 					int x = (int) event.getX() - (int)Main.model.getSquareSideLength()/2;
 					int y = (int) event.getY() - (int)Main.model.getSquareSideLength()/2;
 
-
 				}
 			}
 		});
