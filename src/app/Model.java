@@ -23,7 +23,7 @@ public class Model {
 		shapeListProperty = new SimpleListProperty<>(observableList);
 	}
 
-	public SimpleListProperty getShapeListProperty(){
+	public SimpleListProperty<Shape> getShapeListProperty(){
 		return shapeListProperty;
 	}
 

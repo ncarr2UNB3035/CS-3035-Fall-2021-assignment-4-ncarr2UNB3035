@@ -22,7 +22,22 @@ public class View extends Pane {
 	private static Group root;
 
 	public View(){
+		Main.model.getShapeListProperty().addListener(new ListChangeListener<Shape>() {
+			@Override
+			public void onChanged(Change<? extends Shape> c) {draw();}
+		});
+	}
 
+	@Override
+	public void layoutChildren(){draw();}
+
+	private void draw(){
+		this.getChildren().clear();
+
+		for(Shape s : Main.model.getShapeListProperty()){
+			s.setFill(FILL_COLOR);
+			this.getChildren().add(s);
+		}
 	}
 
 }
