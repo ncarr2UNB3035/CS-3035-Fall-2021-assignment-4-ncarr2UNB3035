@@ -31,6 +31,8 @@ public class Model {
 		return squareSideLength;
 	}
 
-
+	public void addShape(Shape s){
+		shapeListProperty.add(s);
+	}
 
 }

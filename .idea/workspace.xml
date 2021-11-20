@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -29,22 +29,22 @@ public class View extends Pane {
 		});
 
 		bar = new ToolBar();
-		Image square = new Image(getClass().getClassLoader().getResourceAsStream("square.png"));
+		Image square = new Image(getClass().getClassLoader().getResourceAsStream("images/square.png"));
 		ToggleButton squareButton = new ToggleButton("", new ImageView(square));
 
-		Image circle = new Image(getClass().getClassLoader().getResourceAsStream("circle.png"));
+		Image circle = new Image(getClass().getClassLoader().getResourceAsStream("images/circle.png"));
 		ToggleButton circleButton = new ToggleButton("", new ImageView(circle));
 
-		Image copy = new Image(getClass().getClassLoader().getResourceAsStream("copy.png"));
+		Image copy = new Image(getClass().getClassLoader().getResourceAsStream("images/copy.png"));
 		ToggleButton copyButton = new ToggleButton("", new ImageView(copy));
 
-		Image cut = new Image(getClass().getClassLoader().getResourceAsStream("cut.png"));
+		Image cut = new Image(getClass().getClassLoader().getResourceAsStream("images/cut.png"));
 		ToggleButton cutButton = new ToggleButton("", new ImageView(cut));
 
-		Image paste = new Image(getClass().getClassLoader().getResourceAsStream("paste.png"));
+		Image paste = new Image(getClass().getClassLoader().getResourceAsStream("images/paste.png"));
 		ToggleButton pasteButton = new ToggleButton("", new ImageView(paste));
 
-		Image triangle = new Image(getClass().getClassLoader().getResourceAsStream("triangle.png"));
+		Image triangle = new Image(getClass().getClassLoader().getResourceAsStream("images/triangle.png"));
 		ToggleButton triangleButton = new ToggleButton("", new ImageView(triangle));
 
 		bar.getItems().add(squareButton);
