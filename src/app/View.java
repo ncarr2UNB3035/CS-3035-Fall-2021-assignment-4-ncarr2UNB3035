@@ -63,6 +63,7 @@ public class View extends Pane {
 	private void draw(){
 		this.getChildren().clear();
 
+		//this does not work and I am unsure why
 		for(Shape s : Main.model.getShapeListProperty()){
 			s.setFill(FILL_COLOR);
 			this.getChildren().add(s);
