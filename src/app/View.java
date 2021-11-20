@@ -21,4 +21,8 @@ public class View extends Pane {
 	public static final Color SELECTED_FILL_COLOR = Color.BLUE;
 	private static Group root;
 
+	public View(){
+
+	}
+
 }
